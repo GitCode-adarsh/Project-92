@@ -1,0 +1,48 @@
+#game{
+	background-color: red;
+	width: 200px;
+}
+body{
+background-image: url("bg.png");
+background-size: contain;
+color: red	;
+}
+#login_div1 , #login_div2
+{	
+	background-color: palevioletred;
+	padding: 10px;
+	float: none;
+	height: 200px;
+}
+
+
+#player1_name , #player2_name
+{
+	border-radius: 100px;
+display: inline-block;
+margin-left: 20px;
+}
+#word
+{
+width: 60%;
+}
+#word_display
+{
+letter-spacing: 5px;
+}
+#output
+{
+background: yellow;
+border-radius: 10px;
+border-top: 10px solid red;
+padding: 10px;
+float: none;
+text-align: left;
+}
+.btn btn-info{
+width: 100px;
+height: 50px;
+}
+.form-control{
+	color: blue;
+}
